@@ -6,7 +6,7 @@ services:
     ports:
       - "27017:27017"
 
-  dms:
+  todo:
     build: .
     ports:
       - "80:80"

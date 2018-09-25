@@ -1,4 +1,4 @@
-FROM rackspacegot/python37
+FROM rackspacedot/python37
 MAINTAINER Nerd-Bear "python@istruly.sexy"
 
 RUN apt-get update -y
