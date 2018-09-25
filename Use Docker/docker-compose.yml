@@ -1,0 +1,16 @@
+version: "2.1"
+
+services:
+  mongodb:
+    image: mongo:4.1
+    ports:
+      - "27017:27017"
+
+  dms:
+    build: .
+    ports:
+      - "80:80"
+    depends_on:
+      - mongodb
+    links:
+      - mongodb
