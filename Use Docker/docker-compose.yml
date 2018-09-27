@@ -5,6 +5,8 @@ services:
     image: mongo:4.1
     ports:
       - "27017:27017"
+    networks:
+      - todo_net
 
   todo:
     build: .
@@ -14,3 +16,8 @@ services:
       - mongodb
     links:
       - mongodb
+    networks:
+      - todo_net
+
+networks:
+  todo_net:
