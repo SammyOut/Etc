@@ -5,7 +5,7 @@ from pymongo import MongoClient
 
 app = Flask(__name__)
 
-collection = MongoClient()['use_docker']['todo']
+collection = MongoClient()['use_nginx']['todo']
 
 
 class Todo(MethodView):
