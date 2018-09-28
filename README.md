@@ -8,4 +8,7 @@
 [Bakjoon Online Judge](https://www.acmicpc.net) 문제 풀이
 
 ## Use Docker
-간단한 webserver로 도커를 써보자!
+간단한 todo api server를 도커에 띄워보자!
+
+## Use Nginx
+간단한 todo api server를 웹서버로 띄워보자!
