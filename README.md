@@ -12,3 +12,6 @@
 
 ## Use Nginx
 간단한 todo api server를 웹서버로 띄워보자!
+
+## Study\_Ruby
+루비를 간단하게 공부해보자!
