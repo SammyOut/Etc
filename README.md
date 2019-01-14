@@ -15,3 +15,9 @@
 
 ## Study\_Ruby
 루비를 간단하게 공부해보자!
+
+## SQLAlchemy Tutorial
+SQLAlchemy 튜토리얼을 따라해보자!
+
+## Kafka
+kafka를 간단하게 사용해보자
